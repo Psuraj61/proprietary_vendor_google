@@ -26,6 +26,28 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
 
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := NexusLauncher
+LOCAL_MODULE_OWNER := google
+LOCAL_SRC_FILES := proprietary/app/NexusLauncherPrebuilt/NexusLauncherPrebuilt.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := WallpaperPickerGoogle
+LOCAL_MODULE_OWNER := google
+LOCAL_SRC_FILES := proprietary/app/WallpaperPickerGooglePrebuilt/WallpaperPickerGooglePrebuilt.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := platform
+include $(BUILD_PREBUILT)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := FmRadioTrampoline2
 LOCAL_MODULE_OWNER := google
