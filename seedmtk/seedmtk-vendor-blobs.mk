@@ -152,6 +152,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seedmtk/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     vendor/google/seedmtk/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/google/seedmtk/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
+    vendor/google/seedmtk/proprietary/vendor/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
     vendor/google/seedmtk/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/google/seedmtk/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/google/seedmtk/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
