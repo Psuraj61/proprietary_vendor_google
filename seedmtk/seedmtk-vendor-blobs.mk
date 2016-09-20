@@ -75,7 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seedmtk/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
     vendor/google/seedmtk/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
     vendor/google/seedmtk/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
-    vendor/google/seedmtk/proprietary/lib/libaudiopolicymanagerseedmtk.so:system/lib/libaudiopolicymanagerseedmtk.so \
+    vendor/google/seedmtk/proprietary/lib/libaudiopolicymanagersprout.so:system/lib/libaudiopolicymanagersprout.so \
     vendor/google/seedmtk/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
     vendor/google/seedmtk/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     vendor/google/seedmtk/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
