@@ -106,6 +106,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/seedmtk/proprietary/lib/libcam3_hwpipeline.so:system/lib/libcam3_hwpipeline.so \
     vendor/google/seedmtk/proprietary/lib/libcam3_pipeline.so:system/lib/libcam3_pipeline.so \
     vendor/google/seedmtk/proprietary/lib/libcam3_utils.so:system/lib/libcam3_utils.so \
+    vendor/google/seedmtk/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/google/seedmtk/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+    vendor/google/seedmtk/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/google/seedmtk/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
     vendor/google/seedmtk/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
     vendor/google/seedmtk/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
