@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seedmtk/proprietary/bin/bmc156d:system/bin/bmc156d \
     vendor/google/seedmtk/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
     vendor/google/seedmtk/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
-    vendor/google/seedmtk/proprietary/bin/drvbd:system/bin/drvbd \
     vendor/google/seedmtk/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
     vendor/google/seedmtk/proprietary/bin/lsm303md:system/bin/lsm303md \
     vendor/google/seedmtk/proprietary/bin/md_ctrl:system/bin/md_ctrl \
@@ -106,9 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seedmtk/proprietary/lib/libcam3_hwpipeline.so:system/lib/libcam3_hwpipeline.so \
     vendor/google/seedmtk/proprietary/lib/libcam3_pipeline.so:system/lib/libcam3_pipeline.so \
     vendor/google/seedmtk/proprietary/lib/libcam3_utils.so:system/lib/libcam3_utils.so \
-    vendor/google/seedmtk/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/google/seedmtk/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
-    vendor/google/seedmtk/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/google/seedmtk/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
     vendor/google/seedmtk/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
     vendor/google/seedmtk/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
@@ -125,7 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seedmtk/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
     vendor/google/seedmtk/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/google/seedmtk/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
-    vendor/google/seedmtk/proprietary/lib/libfmjni.so:system/lib/libfmjni.so \
     vendor/google/seedmtk/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
     vendor/google/seedmtk/proprietary/lib/libhwm.so:system/lib/libhwm.so \
     vendor/google/seedmtk/proprietary/lib/libimageio.so:system/lib/libimageio.so \
@@ -142,12 +137,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/seedmtk/proprietary/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
     vendor/google/seedmtk/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
     vendor/google/seedmtk/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
-    vendor/google/seedmtk/proprietary/lib/libmtkplayer.so:system/lib/libmtkplayer.so \
     vendor/google/seedmtk/proprietary/lib/libnvram.so:system/lib/libnvram.so \
     vendor/google/seedmtk/proprietary/lib/libnvram_daemon_callback.so:system/lib/libnvram_daemon_callback.so \
     vendor/google/seedmtk/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/google/seedmtk/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
-    vendor/google/seedmtk/proprietary/lib/libsched.so:system/lib/libsched.so \
     vendor/google/seedmtk/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/google/seedmtk/proprietary/lib/libssladp.so:system/lib/libssladp.so \
     vendor/google/seedmtk/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
@@ -155,10 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/seedmtk/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     vendor/google/seedmtk/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/google/seedmtk/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/google/seedmtk/proprietary/vendor/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
     vendor/google/seedmtk/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/google/seedmtk/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
-    vendor/google/seedmtk/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
     vendor/google/seedmtk/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/google/seedmtk/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/google/seedmtk/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
