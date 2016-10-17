@@ -16,21 +16,10 @@
 
 PRODUCT_COPY_FILES += \
     vendor/google/seedmtk/proprietary/app/FMRadioGoogle/FMRadioGoogle.apk:system/app/FMRadioGoogle/FMRadioGoogle.apk \
-    vendor/google/seedmtk/proprietary/bin/6620_launcher:system/bin/6620_launcher \
-    vendor/google/seedmtk/proprietary/bin/bmc156d:system/bin/bmc156d \
-    vendor/google/seedmtk/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
-    vendor/google/seedmtk/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
-    vendor/google/seedmtk/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
+    vendor/google/seedmtk/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
+    vendor/google/seedmtk/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
+    vendor/google/seedmtk/proprietary/bin/bmgr:system/bin/bmgr \
     vendor/google/seedmtk/proprietary/bin/lsm303md:system/bin/lsm303md \
-    vendor/google/seedmtk/proprietary/bin/md_ctrl:system/bin/md_ctrl \
-    vendor/google/seedmtk/proprietary/bin/msensord:system/bin/msensord \
-    vendor/google/seedmtk/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
-    vendor/google/seedmtk/proprietary/bin/mtkrild:system/bin/mtkrild \
-    vendor/google/seedmtk/proprietary/bin/muxreport:system/bin/muxreport \
-    vendor/google/seedmtk/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
-    vendor/google/seedmtk/proprietary/bin/thermal_manager:system/bin/thermal_manager \
-    vendor/google/seedmtk/proprietary/bin/wmt_loader:system/bin/wmt_loader \
-    vendor/google/seedmtk/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant \
     vendor/google/seedmtk/proprietary/etc/firmware/catcher_filter_1_wg_n.bin:system/etc/firmware/catcher_filter_1_wg_n.bin \
     vendor/google/seedmtk/proprietary/etc/firmware/modem_1_wg_n.img:system/etc/firmware/modem_1_wg_n.img \
     vendor/google/seedmtk/proprietary/etc/firmware/mt6627:system/etc/firmware/mt6627 \
